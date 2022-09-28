@@ -1,0 +1,11 @@
+reg_pr=185
+print("enter no.of fresh loaves of bread=")
+a=int(input())
+print("enter no.of day old loaves=")
+b=int(input())
+print("regular price of bread=185")
+e= a*reg_pr
+print("total amount of fresh loaved bread=",e)
+c=b*reg_pr*0.6
+print("total amount of day old loaved bread=",e)
+print("total amounts=",e+c)
